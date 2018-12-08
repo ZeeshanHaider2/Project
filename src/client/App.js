@@ -1,6 +1,5 @@
-import React, { Component } from "react";
-
-import "./App.css";
+import React, { Component } from 'react';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -11,7 +10,7 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
             Hello worlds!
           </p>
-          Learn React
+            Learn React
         </header>
       </div>
     );
