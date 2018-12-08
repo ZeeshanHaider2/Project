@@ -3,7 +3,7 @@ const path = require("path");
 
 const app = express();
 const port = process.env.port || 5000;
-const buildPath = path.join(__dirname, "../../Build");
+const buildPath = path.join(__dirname, "../../build");
 
 app.use(express.static(buildPath));
 
